@@ -17,6 +17,8 @@ import java.net.HttpURLConnection;
 
 import javax.net.ssl.HttpsURLConnection;
 
+import info.guardianproject.netcipher.NetCipher;
+
 /**
  * Created by imaya on 3/25/16.
  */

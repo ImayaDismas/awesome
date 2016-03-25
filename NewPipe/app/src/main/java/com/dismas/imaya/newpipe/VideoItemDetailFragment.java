@@ -13,6 +13,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -22,7 +23,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -33,11 +33,34 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.view.MenuItem;
 import android.widget.Toast;
 
 import java.io.IOException;
+
+import com.google.android.exoplayer.util.Util;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.assist.FailReason;
+import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
+
 import java.util.ArrayList;
 import java.util.Vector;
+
+
+import com.dismas.imaya.newpipe.extractor.AudioStream;
+import com.dismas.imaya.newpipe.extractor.MediaFormat;
+import com.dismas.imaya.newpipe.extractor.ParsingException;
+import com.dismas.imaya.newpipe.extractor.ServiceList;
+import com.dismas.imaya.newpipe.extractor.StreamExtractor;
+import com.dismas.imaya.newpipe.extractor.StreamInfo;
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfo;
+import com.dismas.imaya.newpipe.extractor.StreamingService;
+import com.dismas.imaya.newpipe.extractor.VideoStream;
+import com.dismas.imaya.newpipe.extractor.services.youtube.YoutubeStreamExtractor;
+import com.dismas.imaya.newpipe.player.BackgroundPlayer;
+import com.dismas.imaya.newpipe.player.PlayVideoActivity;
+import com.dismas.imaya.newpipe.player.ExoPlayerActivity;
 
 /**
  * Created by imaya on 3/25/16.

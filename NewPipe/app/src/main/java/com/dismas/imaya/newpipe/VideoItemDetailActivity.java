@@ -11,6 +11,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.dismas.imaya.newpipe.extractor.ServiceList;
+import com.dismas.imaya.newpipe.extractor.StreamingService;
+
 /**
  * Created by imaya on 3/25/16.
  */

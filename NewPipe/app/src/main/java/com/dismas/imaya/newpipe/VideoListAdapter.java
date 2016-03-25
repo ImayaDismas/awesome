@@ -9,13 +9,15 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfo;
+
 import java.util.List;
 import java.util.Vector;
 
 /**
  * Created by imaya on 3/25/16.
  */
-public class VideoListAdapter extends BaseAdapter {
+class VideoListAdapter extends BaseAdapter {
     private final Context context;
     private final VideoInfoItemViewCreator viewCreator;
     private Vector<StreamPreviewInfo> videoList = new Vector<>();

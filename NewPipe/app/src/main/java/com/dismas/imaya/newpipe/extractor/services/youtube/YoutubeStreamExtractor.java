@@ -1,4 +1,4 @@
-package org.schabi.newpipe.extractor.services.youtube;
+package com.dismas.imaya.newpipe.extractor.services.youtube;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -8,17 +8,17 @@ import org.jsoup.nodes.Element;
 import org.mozilla.javascript.Context;
 import org.mozilla.javascript.Function;
 import org.mozilla.javascript.ScriptableObject;
-import org.schabi.newpipe.extractor.AudioStream;
-import org.schabi.newpipe.extractor.ExtractionException;
-import org.schabi.newpipe.extractor.Downloader;
-import org.schabi.newpipe.extractor.Parser;
-import org.schabi.newpipe.extractor.ParsingException;
-import org.schabi.newpipe.extractor.StreamInfo;
-import org.schabi.newpipe.extractor.StreamPreviewInfo;
-import org.schabi.newpipe.extractor.StreamUrlIdHandler;
-import org.schabi.newpipe.extractor.StreamExtractor;
-import org.schabi.newpipe.extractor.MediaFormat;
-import org.schabi.newpipe.extractor.VideoStream;
+import com.dismas.imaya.newpipe.extractor.AudioStream;
+import com.dismas.imaya.newpipe.extractor.ExtractionException;
+import com.dismas.imaya.newpipe.extractor.Downloader;
+import com.dismas.imaya.newpipe.extractor.Parser;
+import com.dismas.imaya.newpipe.extractor.ParsingException;
+import com.dismas.imaya.newpipe.extractor.StreamInfo;
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfo;
+import com.dismas.imaya.newpipe.extractor.StreamUrlIdHandler;
+import com.dismas.imaya.newpipe.extractor.StreamExtractor;
+import com.dismas.imaya.newpipe.extractor.MediaFormat;
+import com.dismas.imaya.newpipe.extractor.VideoStream;
 
 import java.io.IOException;
 import java.util.List;

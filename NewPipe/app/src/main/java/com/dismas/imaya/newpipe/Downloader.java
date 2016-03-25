@@ -8,10 +8,12 @@ import java.net.UnknownHostException;
 
 import javax.net.ssl.HttpsURLConnection;
 
+import info.guardianproject.netcipher.NetCipher;
+
 /**
  * Created by imaya on 3/25/16.
  */
-public class Downloader implements org.schabi.newpipe.extractor.Downloader {
+public class Downloader implements com.dismas.imaya.newpipe.extractor.Downloader {
 
     private static final String USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0";
 

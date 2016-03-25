@@ -1,4 +1,4 @@
-package org.schabi.newpipe.player;
+package com.dismas.imaya.newpipe.player;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -20,11 +20,11 @@ import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
-import org.schabi.newpipe.ActivityCommunicator;
-import org.schabi.newpipe.BuildConfig;
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.VideoItemDetailActivity;
-import org.schabi.newpipe.VideoItemDetailFragment;
+import com.dismas.imaya.newpipe.ActivityCommunicator;
+import com.dismas.imaya.newpipe.BuildConfig;
+import com.dismas.imaya.newpipe.R;
+import com.dismas.imaya.newpipe.VideoItemDetailActivity;
+import com.dismas.imaya.newpipe.VideoItemDetailFragment;
 
 import java.io.IOException;
 

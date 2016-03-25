@@ -17,6 +17,11 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Toast;
 
+import com.dismas.imaya.newpipe.extractor.ExtractionException;
+import com.dismas.imaya.newpipe.extractor.SearchEngine;
+import com.dismas.imaya.newpipe.extractor.ServiceList;
+import com.dismas.imaya.newpipe.extractor.StreamingService;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Vector;

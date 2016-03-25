@@ -34,16 +34,16 @@
  * along with NewPipe.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.schabi.newpipe.player;
+package com.dismas.imaya.newpipe.player;
 
-import org.schabi.newpipe.R;
-import org.schabi.newpipe.player.exoplayer.DashRendererBuilder;
-import org.schabi.newpipe.player.exoplayer.EventLogger;
-import org.schabi.newpipe.player.exoplayer.ExtractorRendererBuilder;
-import org.schabi.newpipe.player.exoplayer.HlsRendererBuilder;
-import org.schabi.newpipe.player.exoplayer.NPExoPlayer;
-import org.schabi.newpipe.player.exoplayer.NPExoPlayer.RendererBuilder;
-import org.schabi.newpipe.player.exoplayer.SmoothStreamingRendererBuilder;
+import com.dismas.imaya.newpipe.R;
+import com.dismas.imaya.newpipe.player.exoplayer.DashRendererBuilder;
+import com.dismas.imaya.newpipe.player.exoplayer.EventLogger;
+import com.dismas.imaya.newpipe.player.exoplayer.ExtractorRendererBuilder;
+import com.dismas.imaya.newpipe.player.exoplayer.HlsRendererBuilder;
+import com.dismas.imaya.newpipe.player.exoplayer.NPExoPlayer;
+import com.dismas.imaya.newpipe.player.exoplayer.NPExoPlayer.RendererBuilder;
+import com.dismas.imaya.newpipe.player.exoplayer.SmoothStreamingRendererBuilder;
 
 import com.google.android.exoplayer.AspectRatioFrameLayout;
 import com.google.android.exoplayer.ExoPlaybackException;

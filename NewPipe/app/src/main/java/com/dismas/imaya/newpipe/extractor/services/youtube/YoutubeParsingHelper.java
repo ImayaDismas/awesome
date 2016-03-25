@@ -1,6 +1,6 @@
-package org.schabi.newpipe.extractor.services.youtube;
+package com.dismas.imaya.newpipe.extractor.services.youtube;
 
-import org.schabi.newpipe.extractor.ParsingException;
+import com.dismas.imaya.newpipe.extractor.ParsingException;
 
 /**
  * Created by Christian Schabesberger on 02.03.16.

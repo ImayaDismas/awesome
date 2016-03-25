@@ -1,8 +1,8 @@
-package org.schabi.newpipe.extractor.services.youtube;
+package com.dismas.imaya.newpipe.extractor.services.youtube;
 
-import org.schabi.newpipe.extractor.Parser;
-import org.schabi.newpipe.extractor.ParsingException;
-import org.schabi.newpipe.extractor.StreamUrlIdHandler;
+import com.dismas.imaya.newpipe.extractor.Parser;
+import com.dismas.imaya.newpipe.extractor.ParsingException;
+import com.dismas.imaya.newpipe.extractor.StreamUrlIdHandler;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

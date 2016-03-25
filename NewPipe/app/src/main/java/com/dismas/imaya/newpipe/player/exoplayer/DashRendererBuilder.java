@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.schabi.newpipe.player.exoplayer;
+package com.dismas.imaya.newpipe.player.exoplayer;
 
-import org.schabi.newpipe.player.exoplayer.NPExoPlayer.RendererBuilder;
+import com.dismas.imaya.newpipe.player.exoplayer.NPExoPlayer.RendererBuilder;
 
 import com.google.android.exoplayer.DefaultLoadControl;
 import com.google.android.exoplayer.LoadControl;
@@ -89,7 +89,7 @@ public class DashRendererBuilder implements RendererBuilder {
   }
 
   @Override
-  public void buildRenderers(NPExoPlayer player) {
+  public void buildRenderers(com.dismas.imaya.newpipe.player.exoplayer.NPExoPlayer player) {
     currentAsyncBuilder = new AsyncRendererBuilder(context, userAgent, url, drmCallback, player);
     currentAsyncBuilder.init();
   }

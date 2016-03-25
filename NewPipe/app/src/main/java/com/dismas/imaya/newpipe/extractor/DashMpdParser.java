@@ -1,4 +1,4 @@
-package org.schabi.newpipe.extractor;
+package com.dismas.imaya.newpipe.extractor;
 
 import android.util.Xml;
 

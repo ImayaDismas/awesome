@@ -1,4 +1,4 @@
-package org.schabi.newpipe.player;
+package com.dismas.imaya.newpipe.player;
 
 import android.content.Context;
 import android.content.Intent;
@@ -28,8 +28,8 @@ import android.widget.MediaController;
 import android.widget.ProgressBar;
 import android.widget.VideoView;
 
-import org.schabi.newpipe.App;
-import org.schabi.newpipe.R;
+import com.dismas.imaya.newpipe.App;
+import com.dismas.imaya.newpipe.R;
 
 /**
  * Copyright (C) Christian Schabesberger 2015 <chris.schabesberger@mailbox.org>

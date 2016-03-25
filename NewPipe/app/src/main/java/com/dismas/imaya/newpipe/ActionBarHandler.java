@@ -11,12 +11,15 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 
+import com.dismas.imaya.newpipe.extractor.MediaFormat;
+import com.dismas.imaya.newpipe.extractor.VideoStream;
+
 import java.util.List;
 
 /**
  * Created by imaya on 3/25/16.
  */
-public class ActionBarHandler {
+class ActionBarHandler {
     private static final String TAG = ActionBarHandler.class.toString();
 
     private AppCompatActivity activity;

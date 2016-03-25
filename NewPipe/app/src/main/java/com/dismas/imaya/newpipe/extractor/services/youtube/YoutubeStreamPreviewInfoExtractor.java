@@ -1,10 +1,10 @@
-package org.schabi.newpipe.extractor.services.youtube;
+package com.dismas.imaya.newpipe.extractor.services.youtube;
 
 import org.jsoup.nodes.Element;
-import org.schabi.newpipe.extractor.AbstractVideoInfo;
-import org.schabi.newpipe.extractor.Parser;
-import org.schabi.newpipe.extractor.ParsingException;
-import org.schabi.newpipe.extractor.StreamPreviewInfoExtractor;
+import com.dismas.imaya.newpipe.extractor.AbstractVideoInfo;
+import com.dismas.imaya.newpipe.extractor.Parser;
+import com.dismas.imaya.newpipe.extractor.ParsingException;
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfoExtractor;
 
 /**
  * Copyright (C) Christian Schabesberger 2016 <chris.schabesberger@mailbox.org>

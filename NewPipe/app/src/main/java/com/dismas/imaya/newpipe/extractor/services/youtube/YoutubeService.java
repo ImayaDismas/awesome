@@ -1,11 +1,11 @@
-package org.schabi.newpipe.extractor.services.youtube;
+package com.dismas.imaya.newpipe.extractor.services.youtube;
 
-import org.schabi.newpipe.extractor.ExtractionException;
-import org.schabi.newpipe.extractor.Downloader;
-import org.schabi.newpipe.extractor.StreamExtractor;
-import org.schabi.newpipe.extractor.StreamingService;
-import org.schabi.newpipe.extractor.StreamUrlIdHandler;
-import org.schabi.newpipe.extractor.SearchEngine;
+import com.dismas.imaya.newpipe.extractor.ExtractionException;
+import com.dismas.imaya.newpipe.extractor.Downloader;
+import com.dismas.imaya.newpipe.extractor.StreamExtractor;
+import com.dismas.imaya.newpipe.extractor.StreamingService;
+import com.dismas.imaya.newpipe.extractor.StreamUrlIdHandler;
+import com.dismas.imaya.newpipe.extractor.SearchEngine;
 
 import java.io.IOException;
 

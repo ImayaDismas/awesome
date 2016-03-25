@@ -1,4 +1,4 @@
-package org.schabi.newpipe.extractor;
+package com.dismas.imaya.newpipe.extractor;
 
 /**
  * Created by Adam Howard on 08/11/15.

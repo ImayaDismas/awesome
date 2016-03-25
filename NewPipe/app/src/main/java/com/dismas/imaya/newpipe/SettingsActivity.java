@@ -21,6 +21,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import info.guardianproject.netcipher.proxy.OrbotHelper;
+
 /**
  * Created by imaya on 3/25/16.
  */

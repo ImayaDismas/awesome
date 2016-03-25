@@ -1,17 +1,17 @@
-package org.schabi.newpipe.extractor.services.youtube;
+package com.dismas.imaya.newpipe.extractor.services.youtube;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.schabi.newpipe.extractor.AbstractVideoInfo;
-import org.schabi.newpipe.extractor.Downloader;
-import org.schabi.newpipe.extractor.ExtractionException;
-import org.schabi.newpipe.extractor.Parser;
-import org.schabi.newpipe.extractor.ParsingException;
-import org.schabi.newpipe.extractor.SearchEngine;
-import org.schabi.newpipe.extractor.StreamPreviewInfoCollector;
-import org.schabi.newpipe.extractor.StreamPreviewInfoExtractor;
-import org.schabi.newpipe.extractor.StreamUrlIdHandler;
+import com.dismas.imaya.newpipe.extractor.AbstractVideoInfo;
+import com.dismas.imaya.newpipe.extractor.Downloader;
+import com.dismas.imaya.newpipe.extractor.ExtractionException;
+import com.dismas.imaya.newpipe.extractor.Parser;
+import com.dismas.imaya.newpipe.extractor.ParsingException;
+import com.dismas.imaya.newpipe.extractor.SearchEngine;
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfoCollector;
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfoExtractor;
+import com.dismas.imaya.newpipe.extractor.StreamUrlIdHandler;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;

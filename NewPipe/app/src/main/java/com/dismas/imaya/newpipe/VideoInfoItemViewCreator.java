@@ -6,6 +6,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.dismas.imaya.newpipe.extractor.AbstractVideoInfo;
+import com.dismas.imaya.newpipe.extractor.StreamPreviewInfo;
+import com.nostra13.universalimageloader.core.DisplayImageOptions;
+import com.nostra13.universalimageloader.core.ImageLoader;
+
 /**
  * Created by imaya on 3/25/16.
  */

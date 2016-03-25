@@ -1,8 +1,8 @@
-package org.schabi.newpipe.extractor;
+package com.dismas.imaya.newpipe.extractor;
 
 import android.util.Log;
 
-import org.schabi.newpipe.extractor.services.youtube.YoutubeService;
+import com.dismas.imaya.newpipe.extractor.services.youtube.YoutubeService;
 
 /**
  * Created by Christian Schabesberger on 23.08.15.

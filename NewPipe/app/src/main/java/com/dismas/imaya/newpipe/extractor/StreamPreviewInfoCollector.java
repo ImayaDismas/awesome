@@ -1,6 +1,6 @@
-package org.schabi.newpipe.extractor;
+package com.dismas.imaya.newpipe.extractor;
 
-import org.schabi.newpipe.extractor.services.youtube.YoutubeStreamUrlIdHandler;
+import com.dismas.imaya.newpipe.extractor.services.youtube.YoutubeStreamUrlIdHandler;
 
 /**
  * Created by Christian Schabesberger on 28.02.16.
